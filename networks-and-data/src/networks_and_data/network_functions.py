@@ -50,8 +50,8 @@ def degree_distribution(G, number_of_bins=15, log_binning=True, density=True, di
     return bins_out, probs
 
 
-def plot_degree_distribution(G):
-    x, y = degree_distribution(G)
+def plot_degree_distribution(G,number_of_bins=15, log_binning=True, density=True, directed=False):
+    x, y = degree_distribution(G,number_of_bins, log_binning, density, directed)
     fig, ax = plt.subplots(1,1,figsize=(4.5,4),dpi=125)
     ax.loglog(x, y,'o', color='teal', label='degree', alpha=0.8, mec='.1')
     ax.set_xlabel(r"$k$",fontsize='large')
