@@ -23,10 +23,10 @@ pip install networks-and-data
 
 ## Modules 
 ### network_functions 
-This module just has a couple of network based functions. 
-a. add_num(a,b)
-   Input: Two numbers a and b. 
-   Output: Sum of these numbers 
+This module just has a couple of network based functions. \\
+a. add_num(a,b)\\
+   Input: Two numbers a and b. \\
+   Output: Sum of these numbers \\
 The purpose of this function is just to test that you have imported the package successfully. 
 
 b. degree_distribution(G, number_of_bins=15, log_binning=True, density=True, directed=False)
